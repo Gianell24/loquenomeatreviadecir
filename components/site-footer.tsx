@@ -38,7 +38,7 @@ export function SiteFooter() {
               Lo que no me <span className="text-gold">atreví</span> a decir
             </p>
             <p className="mt-3 text-sm leading-relaxed text-mist">
-              Una experiencia transmedia sobre el amor, el miedo y el coraje de decir
+              Una experiencia transmedia sobre el amor, la introspección y el coraje de decir
               lo que sentimos a tiempo.
             </p>
           </div>
@@ -81,7 +81,7 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-wrap justify-between gap-3 border-t border-line/70 pt-6 text-xs text-mist">
           <span>© 2026 Lo que no me atreví a decir. Serie web transmedia.</span>
-          <span>Guion: Daniel Vilca &amp; Gianella Parodi</span>
+          <span>Risen Studios</span>
         </div>
       </div>
     </footer>
