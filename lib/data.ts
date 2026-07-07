@@ -116,8 +116,8 @@ export const PROMPTS = [
 
 /* ---- side stories de Olivia ---- */
 export const REELS: { badge: string; title: string; sub: string; img: ImgKey; linkKey: string }[] = [
-  { badge: "Side story 01", title: "Te extraño", sub: "Olivia · 0:55", img: "olivia-cat-2", linkKey: "reel:1" },
-  { badge: "Side story 02", title: "Un nuevo comienzo", sub: "Olivia · 0:55", img: "sea", linkKey: "reel:2" },
+{ badge: "Side story 01", title: "Te extraño", sub: "Olivia · 0:55", img: "reel-cover-1", linkKey: "reel:1" },
+{ badge: "Side story 02", title: "Un nuevo comienzo", sub: "Olivia · 0:55", img: "reel-cover-2", linkKey: "reel:2" },
 ];
 
 /* ---- hub de la home ---- */
