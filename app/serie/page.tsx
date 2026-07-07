@@ -20,7 +20,7 @@ export default function SeriePage() {
         kicker="La serie web"
         title="Cuatro capítulos, una sola"
         titleEm="confesión"
-        subtitle="Cuatro capítulos que se estrenan en YouTube. La historia de Leandro y Olivia, entre recuerdos y terapia."
+        subtitle="Cuatro capítulos en YouTube."
         img="olivia-cat"
       />
 
@@ -121,7 +121,6 @@ export default function SeriePage() {
               Leandro
             </h2>
             <p className="mt-4 text-[clamp(1.05rem,1.6vw,1.3rem)] text-foam">
-              Veinticinco años, las palabras siempre listas y la garganta siempre cerrada.
               Confunde el miedo con la prudencia hasta que la terapia le enseña a ponerle
               nombre al ruido que lo tenía paralizado.
             </p>
@@ -132,9 +131,8 @@ export default function SeriePage() {
               Olivia
             </h2>
             <p className="mt-4 text-[clamp(1.05rem,1.6vw,1.3rem)] text-foam">
-              La que pregunta, insiste y ofrece su apoyo. La que colecciona el significado
-              de las flores. Y la que, cuando entiende que se quedará esperando una
-              sinceridad que no llega, elige priorizarse. Alejarse no siempre es rendirse.
+              La que pregunta, insiste y ofrece su apoyo. Y la que entiende que, 
+              alejarse no siempre es rendirse.
             </p>
           </Reveal>
         </div>
