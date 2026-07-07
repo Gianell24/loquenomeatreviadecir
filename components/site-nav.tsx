@@ -36,7 +36,7 @@ export function SiteNav() {
           href="/"
           className="font-display text-[1rem] font-semibold whitespace-nowrap text-cream"
         >
-          Lo que no me <span className="text-gold">atreví</span> a decir
+          Lo Que No Me <span className="text-gold">Atreví</span> A Decir
         </Link>
 
         <div className="hidden items-center gap-0.5 lg:flex">
