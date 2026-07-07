@@ -11,7 +11,7 @@ export default function GaleriaPage() {
     <>
       <PageHero
         kicker="Galería"
-        title="Los objetos que cargan la"
+        title="Los elementos que dan vida a la"
         titleEm="historia"
         subtitle="Cada imagen guarda un recuerdo. Toca para abrirlas."
         img="letter-card"
