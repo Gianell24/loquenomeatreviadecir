@@ -83,7 +83,7 @@ export default function ComunidadPage() {
         </div>
 
         <div className="mt-16">
-          <p className="eyebrow mb-6">Side stories · Olivia, la otra orilla</p>
+          <p className="eyebrow mb-6">Side stories · Olivia</p>
           <Reels />
         </div>
       </Section>
