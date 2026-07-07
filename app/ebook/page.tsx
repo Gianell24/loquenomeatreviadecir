@@ -23,7 +23,7 @@ export default function EbookPage() {
         kicker="El libro"
         title="Un libro para los que sienten mucho y dicen"
         titleEm="poco"
-        subtitle="No es el final de la historia, ni una continuación de lo que viste en pantalla. Es su eco."
+        subtitle="No es el final de la historia, ni una continuación de lo que viste en pantalla. Es otra forma de contarla."
         img="diario-flores"
       />
 
