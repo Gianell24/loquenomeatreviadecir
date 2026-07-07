@@ -16,13 +16,12 @@ export default function HomePage() {
       <HeroGeometric
         bgImageKey="sea"
         badge="Serie web transmedia · 2026"
-        title1="lo que no me atreví"
-        title2="a decir"
-        subtitle="Una historia sobre dos personas que se quisieron y no supieron decírselo a tiempo."
+        title1="Lo Que No Me Atreví"
+        title2="A Decir"
+        subtitle="El silencio puede romper aquello que más amas."
         actions={
           <>
             <CtaLink href="/serie">Ver los capítulos</CtaLink>
-            <CtaLink href="/ebook" variant="ghost">Leer el e-book</CtaLink>
           </>
         }
       />
@@ -30,7 +29,7 @@ export default function HomePage() {
       {/* Intro / logline */}
       <Section className="text-center">
         <Reveal>
-          <p className="eyebrow eyebrow--center">El eco de una historia</p>
+          <p className="eyebrow eyebrow--center">Más que palabras, sentimientos</p>
           <p className="font-display mx-auto mt-6 max-w-[24ch] text-[clamp(1.6rem,4.4vw,3rem)] leading-snug font-light text-cream">
             Se dice que el amor es la forma más pura del lenguaje humano. Pero, contando con
             tantas formas de comunicarnos,{" "}
@@ -38,7 +37,7 @@ export default function HomePage() {
           </p>
           <p className="mx-auto mt-8 max-w-[62ch] text-foam">
             “Lo que no me atreví a decir” es una experiencia transmedia: una serie web, un
-            libro, un podcast y un espacio para mirarte por dentro. Toma el silencio de
+            libro y un podcast, en las cuales encontrarás un espacio para escuchar lo que sientes. Toma el silencio de
             quienes sienten demasiado y dicen muy poco, y lo abre. Porque ese silencio no es
             solo de Leandro y Olivia.
           </p>
@@ -63,7 +62,7 @@ export default function HomePage() {
         <SectionHeading
           kicker="La experiencia"
           title="Explora cada pieza de la historia"
-          lead="Una sola historia contada en muchos formatos. Entra por donde quieras."
+          lead="La serie es solo el comienzo. Descubre todo lo que esta historia tiene para contarte."
         />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {HUB.map((h, i) => (
