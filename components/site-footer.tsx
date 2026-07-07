@@ -35,7 +35,7 @@ export function SiteFooter() {
         <div className="flex flex-wrap items-start justify-between gap-10">
           <div className="max-w-xs">
             <p className="font-display text-2xl text-cream">
-              Lo Que No Me <span className="text-gold">Atreví</span> a Decir
+              Lo Que No Me <span className="text-gold">Atreví</span> A Decir
             </p>
             <p className="mt-3 text-sm leading-relaxed text-mist">
               Una experiencia transmedia sobre el amor, la introspección y el coraje de decir
