@@ -22,12 +22,22 @@ const instrument = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://loquenomeatreviadecir.pages.dev"),
   title: {
     default: "Lo Que No Me Atreví A Decir — Serie web transmedia",
     template: "%s · Lo Que No Me Atreví A Decir",
   },
   description:
     "Una historia sobre dos personas que se quisieron y no supieron decírselo a tiempo. Serie web, e-book, podcast y más.",
+  openGraph: {
+    title: "Lo Que No Me Atreví A Decir — Serie web transmedia",
+    description:
+      "Una historia sobre dos personas que se quisieron y no supieron decírselo a tiempo.",
+    url: "https://loquenomeatreviadecir.pages.dev",
+    siteName: "Lo Que No Me Atreví A Decir",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
