@@ -14,9 +14,9 @@ export const LINKS = {
     4: "https://youtu.be/usHtzKcWkKE",
   } as Record<string, string>,
   // E-book: PDF descargable (Google Drive)
-  ebook: "https://drive.google.com/file/d/1rz6xsPKeVCNU2-J_4tZ-68LRLRC9xe-V/view?usp=drive_link",
+  ebook: "https://drive.google.com/file/d/1o3IaEKoWuMhZ6wg_QSQOXY79e88Gpy1Y/view?usp=sharing",
   // Visor embebido en la página (modo libro)
-  ebookViewer: "https://heyzine.com/flip-book/7663e7ca78.html",
+  ebookViewer: "https://heyzine.com/flip-book/4fcb51b71e.html",
   poster: "", // imagen del póster para descargar
   // Episodios del podcast (YouTube)
   podcast: {
@@ -25,8 +25,8 @@ export const LINKS = {
     3: "https://youtu.be/EciVtTjkgvs",
     4: "https://youtu.be/Gp7KjkRj-iI",
   } as Record<string, string>,
-  // Making of: video principal (próximamente si está vacío)
-  makingof: "",
+  // Making of: video principal 
+  makingof: "https://www.instagram.com/reel/DafpZHTRKmB/?igsh=bXJobjVscnc2cGRk",
   // Clips del rodaje
   cameraTest: "https://www.instagram.com/p/DZ7w35xxPdj/",
   interview: "https://www.instagram.com/reel/Daeg-c5xjYO/",
