@@ -34,8 +34,8 @@ import bts6 from "@/assets/img/bts-6.jpg";
 import bts7 from "@/assets/img/bts-7.jpg";
 import bts8 from "@/assets/img/bts-8.jpg";
 import bts9 from "@/assets/img/bts-9.jpg";
-import ebookFront from "@/assets/img/Portada-ebook.png";
-import ebookBack from "@/assets/img/Contraportada-ebook.png";
+import ebookFront from "@/assets/img/ebook-front.jpg";
+import ebookBack from "@/assets/img/ebook-back.jpg";
 import epCover1 from "@/assets/img/ep-cover-1.jpg";
 import epCover2 from "@/assets/img/ep-cover-2.jpg";
 import epCover3 from "@/assets/img/ep-cover-3.jpg";
@@ -91,8 +91,8 @@ export const IMG = {
   "bts-7": bts7,
   "bts-8": bts8,
   "bts-9": bts9,
-  "Portada-ebook": ebookFront,
-  "Contraportada-ebook": ebookBack,
+  "ebook-front": ebookFront,
+  "ebook-back": ebookBack,
   "ep-cover-1": epCover1,
   "ep-cover-2": epCover2,
   "ep-cover-3": epCover3,
