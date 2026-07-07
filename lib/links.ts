@@ -31,7 +31,7 @@ export const LINKS = {
   cameraTest: "https://www.instagram.com/p/DZ7w35xxPdj/",
   interview: "https://www.instagram.com/reel/Daeg-c5xjYO/",
   instagram: "https://www.instagram.com/loquenomeatreviadecir_oficial?igsh=NGI1c3dpaW8wZzM%3D",
-  tiktok: "https://www.tiktok.com/@loquenomeatreviadecir_",
+  tiktok: "https://www.tiktok.com/@loquenomeatreviadecir_?is_from_webapp=1&sender_device=pc",
   // Side stories de Olivia (reels de Instagram)
   reels: {
     1: "https://www.instagram.com/reel/DabUi-1xQxV/",
