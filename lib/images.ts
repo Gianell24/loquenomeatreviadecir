@@ -54,7 +54,8 @@ import mof7 from "@/assets/img/mof-7.jpg";
 import mof8 from "@/assets/img/mof-8.jpg";
 import mof9 from "@/assets/img/mof-9.jpg";
 import posterOficial from "@/assets/img/poster-oficial.jpg";
-
+import reelCover1 from "@/assets/img/reel-cover-1.jpg";
+import reelCover2 from "@/assets/img/reel-cover-2.jpg";
 export const IMG = {
   "olivia-cat": oliviaCat,
   "olivia-cat-2": oliviaCat2,
@@ -110,6 +111,8 @@ export const IMG = {
   "mof-8": mof8,
   "mof-9": mof9,
   "poster-oficial": posterOficial,
+  "reel-cover-1": reelCover1,
+"reel-cover-2": reelCover2,
 } satisfies Record<string, StaticImageData>;
 
 export type ImgKey = keyof typeof IMG;
