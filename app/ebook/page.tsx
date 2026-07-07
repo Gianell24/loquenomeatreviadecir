@@ -62,7 +62,7 @@ export default function EbookPage() {
           </Reveal>
 
           <Reveal delay={0.08}>
-            <p className="eyebrow">El eco de la historia</p>
+            <p className="eyebrow">Más allá de la pantalla</p>
             <h2 className="font-display mt-3 text-[clamp(1.7rem,3.6vw,2.6rem)] text-cream">
               Lo que queda vibrando después de que la imagen se apaga
             </h2>
@@ -100,7 +100,7 @@ export default function EbookPage() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-line bg-ink-2 sm:aspect-[16/10] lg:aspect-[2/1]">
             <iframe
               src={LINKS.ebookViewer}
-              title="E-book — Lo que no me atreví a decir"
+              title="E-book — Lo Que No Me Atreví A Decir"
               loading="lazy"
               allowFullScreen
               className="absolute inset-0 h-full w-full"
