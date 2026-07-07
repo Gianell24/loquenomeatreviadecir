@@ -36,6 +36,24 @@ import bts8 from "@/assets/img/bts-8.jpg";
 import bts9 from "@/assets/img/bts-9.jpg";
 import ebookFront from "@/assets/img/ebook-front.jpg";
 import ebookBack from "@/assets/img/ebook-back.jpg";
+import epCover1 from "@/assets/img/ep-cover-1.jpg";
+import epCover2 from "@/assets/img/ep-cover-2.jpg";
+import epCover3 from "@/assets/img/ep-cover-3.jpg";
+import epCover4 from "@/assets/img/ep-cover-4.jpg";
+import podCover1 from "@/assets/img/pod-cover-1.jpg";
+import podCover2 from "@/assets/img/pod-cover-2.jpg";
+import podCover3 from "@/assets/img/pod-cover-3.jpg";
+import podCover4 from "@/assets/img/pod-cover-4.jpg";
+import mof1 from "@/assets/img/mof-1.jpg";
+import mof2 from "@/assets/img/mof-2.jpg";
+import mof3 from "@/assets/img/mof-3.jpg";
+import mof4 from "@/assets/img/mof-4.jpg";
+import mof5 from "@/assets/img/mof-5.jpg";
+import mof6 from "@/assets/img/mof-6.jpg";
+import mof7 from "@/assets/img/mof-7.jpg";
+import mof8 from "@/assets/img/mof-8.jpg";
+import mof9 from "@/assets/img/mof-9.jpg";
+import posterOficial from "@/assets/img/poster-oficial.jpg";
 
 export const IMG = {
   "olivia-cat": oliviaCat,
@@ -74,6 +92,24 @@ export const IMG = {
   "bts-9": bts9,
   "ebook-front": ebookFront,
   "ebook-back": ebookBack,
+  "ep-cover-1": epCover1,
+  "ep-cover-2": epCover2,
+  "ep-cover-3": epCover3,
+  "ep-cover-4": epCover4,
+  "pod-cover-1": podCover1,
+  "pod-cover-2": podCover2,
+  "pod-cover-3": podCover3,
+  "pod-cover-4": podCover4,
+  "mof-1": mof1,
+  "mof-2": mof2,
+  "mof-3": mof3,
+  "mof-4": mof4,
+  "mof-5": mof5,
+  "mof-6": mof6,
+  "mof-7": mof7,
+  "mof-8": mof8,
+  "mof-9": mof9,
+  "poster-oficial": posterOficial,
 } satisfies Record<string, StaticImageData>;
 
 export type ImgKey = keyof typeof IMG;

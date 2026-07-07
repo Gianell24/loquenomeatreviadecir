@@ -10,6 +10,9 @@ const LABELS: Record<string, string> = {
   ebook: "E-book",
   poster: "Póster",
   makingof: "Making of",
+  teaser: "Teaser",
+  cameraTest: "Prueba de cámara",
+  interview: "Entrevista al actor",
   instagram: "Instagram",
   tiktok: "TikTok",
   youtube: "YouTube",
@@ -24,6 +27,9 @@ export function resolveLink(key: string): string {
     case "ebook": return LINKS.ebook;
     case "poster": return LINKS.poster;
     case "makingof": return LINKS.makingof;
+    case "teaser": return LINKS.teaser;
+    case "cameraTest": return LINKS.cameraTest;
+    case "interview": return LINKS.interview;
   }
   const [k, n] = key.split(":");
   if (k === "chapter") return ytURL(LINKS.chapters[n] ?? "") || LINKS.youtube;

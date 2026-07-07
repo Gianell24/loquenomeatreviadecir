@@ -35,41 +35,41 @@ export const CHAPTERS: Chapter[] = [
   {
     n: 1, roman: "I", theme: "El amor y lo que guardamos", title: "Recuerdos",
     desc: "Leandro, en su vida actual, recuerda constantemente los momentos junto a Olivia, que afectan su desarrollo y lo mantienen atrapado en el pasado.",
-    quote: "Es para ti. Te traerá mucha suerte.", cite: "Olivia", img: "olivia-cat",
+    quote: "Es para ti. Te traerá mucha suerte.", cite: "Olivia", img: "ep-cover-1",
   },
   {
     n: 2, roman: "II", theme: "Ansiedad y sobrepensamiento", title: "Tiempo",
     desc: "Leandro asiste a una cita con la psicóloga, que le ayuda a entender qué representaba Olivia en su vida y qué significa ahora.",
-    quote: "No sé por qué seguí esperando que dijeras lo que ya me estabas demostrando con acciones.", cite: "Leandro", img: "lucky-cat",
+    quote: "No sé por qué seguí esperando que dijeras lo que ya me estabas demostrando con acciones.", cite: "Leandro", img: "ep-cover-2",
   },
   {
     n: 3, roman: "III", theme: "Autoestima y miedo", title: "Punto de quiebre",
-    desc: "Se descubren las razones por las que Leandro y Olivia se distanciaron. Él cree que debe dejar las cosas como están, pero también que puede hacer algo más.",
-    quote: "No un cobarde como yo, quien por miedo a perderla no se atrevió a confesarle su amor.", cite: "Leandro", img: "lilies-bouquet",
+    desc: "Se descubren las razones por las que Leandro y Olivia se distanciaron. Él cree que debe dejar las cosas como están, pero al mismo tiempo cree que puede hacer algo más.",
+    quote: "No un cobarde como yo, quien por miedo a perderla no se atrevió a confesarle su amor.", cite: "Leandro", img: "ep-cover-3",
   },
   {
     n: 4, roman: "IV", theme: "Introspección y nuevos comienzos", title: "Lirios", titleEm: "blancos",
-    desc: "Leandro escribe una carta con todo lo que siempre quiso decirle a Olivia. Está decidido a buscarla para hacer las cosas bien.",
-    quote: "Sé que las promesas no curan y el amor se sostiene con los hechos.", cite: "Leandro", img: "letter-card",
+    desc: "Leandro escribe una carta donde están todas las cosas que siempre le quiso decir a Olivia. Está decidido a buscarla para hacer las cosas bien.",
+    quote: "Sé que las promesas no curan y el amor se sostiene con los hechos.", cite: "Leandro", img: "ep-cover-4",
   },
 ];
 
 /* ---- podcast (notas de voz de quienes rodean la historia) ---- */
-export const PODCAST = [
+export const PODCAST: { n: number; label: string; title: string; desc: string; img: ImgKey }[] = [
   {
-    n: 1, label: "Ep. 01", title: "La conversación pendiente",
+    n: 1, label: "Ep. 01", title: "La conversación pendiente", img: "pod-cover-1",
     desc: "El mejor amigo de Leandro intenta convencerlo de buscar ayuda profesional. Una conversación sincera que revela las primeras señales de su conflicto emocional.",
   },
   {
-    n: 2, label: "Ep. 02", title: "¿Cómo estás, Olivia?",
+    n: 2, label: "Ep. 02", title: "¿Cómo estás, Olivia?", img: "pod-cover-2",
     desc: "La hermana de Olivia le envía un mensaje de voz para saber cómo se siente. Un episodio que muestra el cariño, la preocupación y los lazos familiares que la rodean.",
   },
   {
-    n: 3, label: "Ep. 03", title: "Lo que una madre percibe",
-    desc: "La madre de Leandro comparte sus recuerdos y preocupaciones sobre los cambios que notó en su hijo. Su testimonio ofrece una mirada íntima y emotiva de la historia.",
+    n: 3, label: "Ep. 03", title: "Lo que una madre percibe", img: "pod-cover-3",
+    desc: "La madre de Leandro comparte sus recuerdos y preocupaciones sobre los cambios que notó en su hijo, mas no obtiene respuesta alguna.",
   },
   {
-    n: 4, label: "Ep. 04", title: "Para nuestro futuro",
+    n: 4, label: "Ep. 04", title: "Para nuestro futuro", img: "pod-cover-4",
     desc: "Olivia y Leandro dejan grabados sus sueños y promesas en una cápsula de tiempo. Un episodio que conecta sus recuerdos con las esperanzas que tenían para el futuro.",
   },
 ];
@@ -86,16 +86,16 @@ export const GALLERY: { key: ImgKey; caption: string }[] = [
 ];
 
 /* ---- making of (fotos reales de rodaje) ---- */
-export const MAKING_FEATURE: ImgKey = "bts-2";
+export const MAKING_FEATURE: ImgKey = "mof-1";
 export const MAKING: { key: ImgKey; caption: string }[] = [
-  { key: "bts-1", caption: "El equipo en el Malecón de Miraflores" },
-  { key: "bts-3", caption: "Repaso de guion en locación" },
-  { key: "bts-4", caption: "El elenco entre tomas" },
-  { key: "bts-5", caption: "La escena del abrazo · iluminación" },
-  { key: "bts-6", caption: "Revisando la toma" },
-  { key: "bts-7", caption: "El set en casa de Leandro" },
-  { key: "bts-8", caption: "Rodaje en el consultorio" },
-  { key: "bts-9", caption: "Dirigiendo la escena de terapia" },
+  { key: "mof-2", caption: "En pleno rodaje" },
+  { key: "mof-3", caption: "Preparando la siguiente toma" },
+  { key: "mof-4", caption: "El elenco entre escenas" },
+  { key: "mof-5", caption: "Iluminando la escena" },
+  { key: "mof-6", caption: "Revisando el material" },
+  { key: "mof-7", caption: "El set de la historia" },
+  { key: "mof-8", caption: "Detrás de cámaras" },
+  { key: "mof-9", caption: "Dirigiendo la escena" },
 ];
 
 /* ---- frases / introspección ---- */

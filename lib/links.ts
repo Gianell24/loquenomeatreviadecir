@@ -4,23 +4,37 @@
    ============================================================ */
 export const LINKS = {
   youtube: "https://www.youtube.com/@loquenomeatreviadecir_oficial",
-  // ID o URL de cada capítulo (vacío = abre el canal de YouTube)
-  chapters: { 1: "", 2: "", 3: "", 4: "" } as Record<string, string>,
+  // Teaser oficial (YouTube)
+  teaser: "https://youtu.be/aimIIDEZeLQ",
+  // Capítulos de la serie (YouTube)
+  chapters: {
+    1: "https://youtu.be/UeSA9ok6ctA",
+    2: "https://youtu.be/8NB6MLqxvWc",
+    3: "https://youtu.be/QfbLywI7SrI",
+    4: "https://youtu.be/usHtzKcWkKE",
+  } as Record<string, string>,
   // E-book: PDF descargable (Google Drive)
   ebook: "https://drive.google.com/file/d/1rz6xsPKeVCNU2-J_4tZ-68LRLRC9xe-V/view?usp=drive_link",
   // Visor embebido en la página (modo libro)
-  ebookViewer: "https://heyzine.com/flip-book/e1e4bdb309.html",
+  ebookViewer: "https://heyzine.com/flip-book/7663e7ca78.html",
   poster: "", // imagen del póster para descargar
   // Episodios del podcast (YouTube)
   podcast: {
-    1: "https://youtu.be/gAMiL35tTJU",
-    2: "https://youtu.be/b4scbFpmFiw",
-    3: "https://youtu.be/U7_lPMoZu5w",
-    4: "https://youtu.be/wRXPJl3nZdE",
+    1: "https://youtu.be/V56pEfLyTKE",
+    2: "https://youtu.be/2uzK0V2TkGE",
+    3: "https://youtu.be/EciVtTjkgvs",
+    4: "https://youtu.be/Gp7KjkRj-iI",
   } as Record<string, string>,
-  // Avance del making of (reel de Instagram)
-  makingof: "https://www.instagram.com/reel/DZpzia2R2qY/",
-  instagram: "https://www.instagram.com/loquenomeatreviadecir_oficial?igsh=NGI1c3dpaW8wZzM=",
+  // Making of: video principal (próximamente si está vacío)
+  makingof: "",
+  // Clips del rodaje
+  cameraTest: "https://www.instagram.com/p/DZ7w35xxPdj/",
+  interview: "https://www.instagram.com/reel/Daeg-c5xjYO/",
+  instagram: "https://www.instagram.com/loquenomeatreviadecir_oficial?igsh=NGI1c3dpaW8wZzM%3D",
   tiktok: "https://www.tiktok.com/@loquenomeatreviadecir_",
-  reels: { 1: "", 2: "" } as Record<string, string>, // 2 side stories de Olivia
+  // Side stories de Olivia (reels de Instagram)
+  reels: {
+    1: "https://www.instagram.com/reel/DabUi-1xQxV/",
+    2: "https://www.instagram.com/reel/DabVxXARP9N/",
+  } as Record<string, string>,
 } as const;

@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Play } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
 import { Section } from "@/components/section";
 import { Reveal } from "@/components/reveal";
 import { ActionButton } from "@/components/action-button";
+import { IMG } from "@/lib/images";
 import { PODCAST } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Podcast" };
@@ -23,22 +25,32 @@ export default function PodcastPage() {
         <div className="grid gap-4 sm:grid-cols-2">
           {PODCAST.map((p, i) => (
             <Reveal key={p.n} delay={(i % 2) * 0.06}>
-              <article className="flex h-full flex-col gap-3 rounded-2xl border border-line bg-tide/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-white/15 hover:bg-tide/20">
-                <div className="flex items-center justify-between">
-                  <span className="font-display text-lg text-gold italic">{p.label}</span>
-                  <span className="text-xs tracking-wide text-mist">— : —</span>
+              <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-tide/10 transition-all duration-300 hover:-translate-y-1 hover:border-white/15 hover:bg-tide/20">
+                <div className="relative aspect-video overflow-hidden">
+                  <Image
+                    src={IMG[p.img]}
+                    alt={`Portada del episodio ${p.n}: ${p.title}`}
+                    fill
+                    sizes="(max-width:640px) 100vw, 50vw"
+                    className="object-cover transition duration-700 group-hover:scale-[1.04]"
+                  />
+                  <span className="font-display absolute top-3 left-3 rounded-full bg-ink/55 px-2.5 py-1 text-sm text-gold italic backdrop-blur">
+                    {p.label}
+                  </span>
                 </div>
-                <h3 className="font-display text-xl text-cream">{p.title}</h3>
-                <p className="text-sm leading-relaxed text-foam">{p.desc}</p>
-                <div className="mt-auto pt-2">
-                  <ActionButton
-                    linkKey={`pod:${p.n}`}
-                    variant="outline"
-                    className="h-10 gap-2 px-4 text-sm"
-                  >
-                    <Play className="h-3.5 w-3.5 fill-current" />
-                    Escuchar
-                  </ActionButton>
+                <div className="flex flex-1 flex-col gap-3 p-6">
+                  <h3 className="font-display text-xl text-cream">{p.title}</h3>
+                  <p className="text-sm leading-relaxed text-foam">{p.desc}</p>
+                  <div className="mt-auto pt-2">
+                    <ActionButton
+                      linkKey={`pod:${p.n}`}
+                      variant="outline"
+                      className="h-10 gap-2 px-4 text-sm"
+                    >
+                      <Play className="h-3.5 w-3.5 fill-current" />
+                      Escuchar
+                    </ActionButton>
+                  </div>
                 </div>
               </article>
             </Reveal>

@@ -36,7 +36,7 @@ export function MakingOf({ feature, items }: { feature: ImgKey; items: Item[] })
             Ver el making of
           </span>
           <span className="absolute bottom-5 left-6 z-10 text-xs tracking-[0.16em] text-mist uppercase">
-            Locaciones · Costa Verde, Miraflores
+            El equipo · rodaje en Miraflores
           </span>
         </button>
 

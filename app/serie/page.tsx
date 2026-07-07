@@ -31,20 +31,21 @@ export default function SeriePage() {
             <Poster />
           </Reveal>
           <Reveal delay={0.08}>
-            <p className="eyebrow">El póster</p>
+            <p className="eyebrow">Sinopsis</p>
             <h2 className="font-display mt-3 text-[clamp(1.8rem,4vw,2.8rem)] text-cream">
-              La imagen que lo dice sin palabras
+              Un amor que no se dijo a tiempo
             </h2>
-            <p className="mt-5 max-w-[46ch] text-foam">
-              El mar, los lirios y un hombre a punto de atreverse. El arte de la serie
-              condensado en una sola pieza, lista para impresión y para redes.
+            <p className="mt-5 max-w-[50ch] text-foam">
+              Tras perder el vínculo con Olivia, Leandro queda atrapado entre los recuerdos
+              de un amor que nunca se atrevió a expresar por completo. Mientras la terapia lo
+              enfrenta a sus miedos e inseguridades, comprende que el silencio también puede
+              romper aquello que más se ama.
             </p>
-            {/* EDITABLE: reemplaza “Próximamente” por la sinopsis comercial general cuando esté lista */}
-            <div className="mt-7 rounded-2xl border border-dashed border-line bg-tide/5 p-5">
-              <p className="text-[0.72rem] font-semibold tracking-[0.22em] text-gold uppercase">
-                Sinopsis comercial general
-              </p>
-              <p className="font-display mt-2 text-lg text-foam/70 italic">Próximamente.</p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <ActionButton linkKey="teaser">
+                <Play className="h-4 w-4 fill-current" />
+                Ver el teaser
+              </ActionButton>
             </div>
           </Reveal>
         </div>
