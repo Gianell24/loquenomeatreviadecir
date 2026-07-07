@@ -80,7 +80,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-wrap justify-between gap-3 border-t border-line/70 pt-6 text-xs text-mist">
-          <span>© 2026 Lo que no me atreví a decir. Serie web transmedia.</span>
+          <span>© 2026 Lo Que No Me Atreví A Decir. Serie web transmedia.</span>
           <span>Risen Studios</span>
         </div>
       </div>
